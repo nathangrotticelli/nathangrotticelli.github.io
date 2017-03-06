@@ -20,7 +20,7 @@ function onLoad() {
   // Load VR View.
   vrView = new VRView.Player('#vrview', {
     width: '100%',
-    height: 480,
+    height: '100%',
     video: 'football.mp4',
     is_stereo: true
     //is_debug: true,
