@@ -21,7 +21,7 @@ function onLoad() {
   vrView = new VRView.Player('#vrview', {
     width: '100%',
     height: '100%',
-    video: 'football.mp4',
+    video: 'https://ucarecdn.com/b87436fe-dbe4-475c-9229-9dac29f267ae/',
     is_stereo: true
     //is_debug: true,
     //default_heading: 90,
