@@ -24,7 +24,7 @@ p.caption {
 iframe {
   display: block;
   border: none;
-  margin: 10px auto;
+  margin: 0;
   margin-bottom: 0;
   padding: 0;
   border: 0;
@@ -41,7 +41,7 @@ iframe {
     cursor: pointer;
     opacity: 0.5;
   }
- 
+
   #controls > *:hover {
     opacity: 1;
   }
@@ -79,8 +79,8 @@ iframe {
 /* DESKTOP */
 @media screen and (min-width: 700px) {
   iframe {
-    height: 400px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
   }
 
   h1, h2, p {
