@@ -22,7 +22,7 @@ function onLoad() {
     width: '100%',
     height: '100%',
     video: '//ucarecdn.com/adfe84c1-ebc5-4210-8673-1deacb1c41c5/',
-    is_stereo: true
+    is_stereo: false
     //is_debug: true,
     //default_heading: 90,
     //is_yaw_only: true,
