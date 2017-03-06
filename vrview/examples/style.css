@@ -79,8 +79,8 @@ iframe {
 /* DESKTOP */
 @media screen and (min-width: 700px) {
   iframe {
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 700px;
   }
 
   h1, h2, p {
