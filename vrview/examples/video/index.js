@@ -22,7 +22,7 @@ function onLoad() {
     width: '100%',
     height: 480,
     video: 'football.mp4',
-    is_stereo: true,
+    is_stereo: true
     //is_debug: true,
     //default_heading: 90,
     //is_yaw_only: true,
