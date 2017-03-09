@@ -28,7 +28,7 @@ function onLoad() {
     //is_yaw_only: true,
     //is_vr_off: true,
   });
-  vrView.on('ready', onVRViewReady);
+  // vrView.on('ready', onVRViewReady);
 
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
@@ -57,14 +57,14 @@ function onLoad() {
 //   }
 // }
 
-function onToggleMute() {
-  var isMuted = muteButton.classList.contains('muted');
-  if (isMuted) {
-    vrView.setVolume(1);
-  } else {
-    vrView.setVolume(0);
-  }
-  muteButton.classList.toggle('muted');
-}
+// function onToggleMute() {
+//   var isMuted = muteButton.classList.contains('muted');
+//   if (isMuted) {
+//     vrView.setVolume(1);
+//   } else {
+//     vrView.setVolume(0);
+//   }
+//   muteButton.classList.toggle('muted');
+// }
 
 window.addEventListener('load', onLoad);
