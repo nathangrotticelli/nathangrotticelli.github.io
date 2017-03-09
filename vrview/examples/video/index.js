@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 var vrView;
-var playButton;
-var muteButton;
+// var playButton;
+// var muteButton;
 
 function onLoad() {
   // Load VR View.
@@ -22,7 +22,7 @@ function onLoad() {
     width: '100%',
     height: '100%',
     video: 'reel.webm',
-    is_stereo: false
+    is_stereo: true
     //is_debug: true,
     //default_heading: 90,
     //is_yaw_only: true,
@@ -30,32 +30,32 @@ function onLoad() {
   });
   vrView.on('ready', onVRViewReady);
 
-  playButton = document.querySelector('#toggleplay');
-  muteButton = document.querySelector('#togglemute');
+  // playButton = document.querySelector('#toggleplay');
+  // muteButton = document.querySelector('#togglemute');
 
-  playButton.addEventListener('click', onTogglePlay);
-  muteButton.addEventListener('click', onToggleMute);
+  // playButton.addEventListener('click', onTogglePlay);
+  // muteButton.addEventListener('click', onToggleMute);
 }
 
-function onVRViewReady() {
-  console.log('vrView.isPaused', vrView.isPaused);
-  // Set the initial state of the buttons.
-  if (vrView.isPaused) {
-    playButton.classList.add('paused');
-  } else {
-    playButton.classList.remove('paused');
-  }
-}
+// function onVRViewReady() {
+//   console.log('vrView.isPaused', vrView.isPaused);
+//   // Set the initial state of the buttons.
+//   if (vrView.isPaused) {
+//     playButton.classList.add('paused');
+//   } else {
+//     playButton.classList.remove('paused');
+//   }
+// }
 
-function onTogglePlay() {
-  if (vrView.isPaused) {
-    vrView.play();
-    playButton.classList.remove('paused');
-  } else {
-    vrView.pause();
-    playButton.classList.add('paused');
-  }
-}
+// function onTogglePlay() {
+//   if (vrView.isPaused) {
+//     vrView.play();
+//     playButton.classList.remove('paused');
+//   } else {
+//     vrView.pause();
+//     playButton.classList.add('paused');
+//   }
+// }
 
 function onToggleMute() {
   var isMuted = muteButton.classList.contains('muted');
