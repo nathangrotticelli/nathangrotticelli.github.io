@@ -54,11 +54,14 @@ iframe {
   /*padding: -0.25rem 0.5rem;*/
 }
 #contact{
-  position: absolute;
-  z-index: 5;
-  /*width: 100%;*/
-  top:5%;
-  left:5%;
+    position: absolute;
+    z-index: 5;
+    width: 10%;
+    height: 5%;
+    background-color: red;
+    color: white;
+    margin: 2%;
+    border-radius: 5%;
   /*padding: -0.25rem 0.5rem;*/
 }
 
