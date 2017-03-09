@@ -49,8 +49,8 @@ iframe {
   position: absolute;
   z-index: 5;
   /*width: 100%;*/
-  bottom: 12px;
-  padding-left: 15px;
+  bottom: 11px;
+  padding-left: 16px;
   color:white;
   /*padding: -0.25rem 0.5rem;*/
 }
@@ -89,12 +89,17 @@ iframe {
   }*/
 
 /* MOBILE */
-@media screen and (max-width: 700px) {
-  iframe {
-    width: 100%;
-    height: 240px;
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (max-width: 700px){
+ @media {
+      _:-webkit-full-screen, .safari_only {
+
+          display:none;
+
+      }
   }
 }
+
+
 /* DESKTOP */
 @media screen and (min-width: 700px) {
   iframe {
