@@ -56,7 +56,6 @@ iframe {
 #contact{
     position: absolute;
     z-index: 5;
-    width: 10%;
     height: 5%;
     background-color: red;
     color: white;
