@@ -21,7 +21,7 @@ function onLoad() {
   vrView = new VRView.Player('#vrview', {
     width: '100%',
     height: '100%',
-    video: 'reel.mp4',
+    video: 'reel.webm',
     is_stereo: false
     //is_debug: true,
     //default_heading: 90,
