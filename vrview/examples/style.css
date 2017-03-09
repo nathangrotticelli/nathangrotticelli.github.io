@@ -53,14 +53,7 @@ iframe {
   padding-left: 3%;
   /*padding: -0.25rem 0.5rem;*/
 }
-button{
-  position: absolute;
-  z-index: 5;
-  /*width: 100%;*/
-  top: 5%;
-  padding-left: 3%;
-  /*padding: -0.25rem 0.5rem;*/
-}
+
 
 /*#toggleplay {
   float: left;
