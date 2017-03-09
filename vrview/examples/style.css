@@ -90,7 +90,7 @@ iframe {
 
 /* MOBILE */
 @media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0) and (max-width: 700px){
-      iframe{
+      #vrview{
           display:none;
       }
 }
