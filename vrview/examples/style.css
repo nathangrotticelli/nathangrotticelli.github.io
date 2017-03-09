@@ -57,7 +57,8 @@ iframe {
   position: absolute;
   z-index: 5;
   /*width: 100%;*/
-  margin:5%;
+  top:5%;
+  left:5%;
   /*padding: -0.25rem 0.5rem;*/
 }
 
