@@ -91,7 +91,7 @@ iframe {
 /* MOBILE */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (max-width: 700px){
  @media {
-      _:-webkit-full-screen, .safari_only {
+      iframe{
 
           display:none;
 
