@@ -29,7 +29,7 @@ function onLoad() {
     //is_vr_off: true,
   });
   // vrView.on('ready', onVRViewReady);
-
+  document.querySelector('.webvr-button').style.color='red';
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
 
