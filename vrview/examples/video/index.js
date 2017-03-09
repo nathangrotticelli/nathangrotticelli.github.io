@@ -22,7 +22,7 @@ function onLoad() {
     width: '100%',
     height: '100%',
     video: 'reel.webm',
-    is_stereo: true
+    is_stereo: false
     //is_debug: true,
     //default_heading: 90,
     //is_yaw_only: true,
