@@ -3,9 +3,7 @@ html, body {
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
 }
-.webvr-button{
-  color:red!important;
-}
+
 h1 { font-size: 2rem; }
 h2 { font-size: 1.5rem; }
 p {
@@ -53,6 +51,7 @@ iframe {
   /*width: 100%;*/
   bottom: .8%;
   padding-left: 3%;
+  color:white;
   /*padding: -0.25rem 0.5rem;*/
 }
 #contact{

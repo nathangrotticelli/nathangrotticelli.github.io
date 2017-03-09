@@ -28,7 +28,8 @@ function onLoad() {
     //is_yaw_only: true,
     //is_vr_off: true,
   });
-  vrView.on('ready', onVRViewReady);
+  // vrView.on('ready', onVRViewReady);
+
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
 
@@ -36,10 +37,7 @@ function onLoad() {
   // muteButton.addEventListener('click', onToggleMute);
 }
 
-function onVRViewReady() {
-
-  document.querySelector('.webvr-button').style.color='red';
-}
+// function onVRViewReady() {
 //   console.log('vrView.isPaused', vrView.isPaused);
 //   // Set the initial state of the buttons.
 //   if (vrView.isPaused) {
