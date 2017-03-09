@@ -45,7 +45,7 @@ iframe {
   #controls > *:hover {
     opacity: 1;
   }
-#footer{
+#footer, button{
   position: absolute;
   z-index: 5;
   /*width: 100%;*/
