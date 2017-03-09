@@ -49,8 +49,8 @@ iframe {
   position: absolute;
   z-index: 5;
   /*width: 100%;*/
-  bottom: .8%;
-  padding-left: 2.5%;
+  bottom: 12px;
+  padding-left: 15px;
   color:white;
   /*padding: -0.25rem 0.5rem;*/
 }
