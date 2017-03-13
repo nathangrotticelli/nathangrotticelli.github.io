@@ -19,7 +19,7 @@ body {
     font-weight: 300;
     color: #c8c8c8;
     line-height: 28px;
-    text-align: center;
+    /*text-align: center;*/
     overflow-x: hidden !important;
     margin: auto !important;
 }
@@ -235,6 +235,7 @@ h5 {
 
 .section-header {
     padding-bottom: 78px;
+    text-align: center;
 }
 
 .section-header h2 {
@@ -244,7 +245,7 @@ h5 {
 .section-header .section-description {
     display: inline-block;
     position: relative;
-    /*text-align: center;*/
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
