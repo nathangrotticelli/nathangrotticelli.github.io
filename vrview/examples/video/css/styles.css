@@ -8,7 +8,7 @@ GLOBAL STYLES
 =========================================
 -----------------------------------------*/
 
-html {
+/*html {
     font-size: 100%;
 }
 
@@ -22,7 +22,7 @@ body {
     text-align: center;
     overflow-x: hidden !important;
     margin: auto !important;
-}
+}*/
 
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
@@ -244,7 +244,7 @@ h5 {
 .section-header .section-description {
     display: inline-block;
     position: relative;
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -369,7 +369,7 @@ header .intro-section .buttons {
 }
 
 .features .features-left {
-    text-align: right;
+    /*text-align: right;*/
     margin-top: 26px;
     margin-bottom: 80px;
 }
@@ -380,7 +380,7 @@ header .intro-section .buttons {
 }
 
 .features .features-right {
-    text-align: left;
+    /*text-align: left;*/
     margin-top: 26px;
     margin-bottom: 80px;
 }
@@ -406,7 +406,7 @@ header .intro-section .buttons {
     border-radius: 50%;
     line-height: 55px;
     font-size: 18px;
-    text-align: center;
+    /*text-align: center;*/
     -webkit-transition: all ease-in 0.25s;
             transition: all ease-in 0.25s;
     -webkit-background-clip: padding-box;
@@ -449,7 +449,7 @@ header .intro-section .buttons {
 }
 
 .app-brief .left-align {
-    text-align: left;
+    /*text-align: left;*/
     margin-bottom: 50px;
 }
 
