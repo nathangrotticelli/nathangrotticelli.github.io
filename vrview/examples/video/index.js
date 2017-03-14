@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 var vrView;
 // var playButton;
 // var muteButton;
@@ -68,3 +69,8 @@ function onLoad() {
 // }
 
 window.addEventListener('load', onLoad);
+$("#contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".expanded-contact-form").offset().top},
+        'slow');
+});
