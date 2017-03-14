@@ -82,6 +82,9 @@ width: 100%;
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+.form-control2:active {
+  color:black;
+}
 /*#toggleplay {
   float: left;
   background: url('img/ic_pause_black_24dp.svg');
