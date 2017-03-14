@@ -74,3 +74,8 @@ $("#contact").click(function() {
         scrollTop: $(".expanded-contact-form").offset().top},
         'slow');
 });
+$(".white-text").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".expanded-contact-form").offset().bottom},
+        'slow');
+});
