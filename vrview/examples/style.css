@@ -71,6 +71,9 @@ iframe {
     background-color: lightgray!important;
     margin-bottom: 6%;
 }
+.white-text{
+  font-family: 'Roboto', sans-serif!important;
+}
 /*#toggleplay {
   float: left;
   background: url('img/ic_pause_black_24dp.svg');
