@@ -101,6 +101,9 @@ iframe {
       #vrview{
           display:none;
       }
+      .lsplayer-frame{
+        display: inline;
+     }
 }
 
 /* DESKTOP */
