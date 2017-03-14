@@ -58,7 +58,7 @@ iframe {
     position: absolute;
     z-index: 5;
     background-color: red;
-    /*color: white;*/
+    color: white;
     font-size: 1.5rem;
     margin: 2%;
     margin-left:2.5%;
