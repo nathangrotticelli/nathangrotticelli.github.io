@@ -69,8 +69,4 @@ function onLoad() {
 // }
 
 window.addEventListener('load', onLoad);
-$("#contact").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".expanded-contact-form").offset().top},
-        'slow');
-});
+

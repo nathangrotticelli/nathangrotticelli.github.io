@@ -35,7 +35,6 @@
 
 <!-- RESPONSIVE FIXES -->
 <link rel="stylesheet" href="css/responsive.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
   <body>
     <button id="contact">Contact</button>
@@ -87,5 +86,13 @@
     <div id="footer">© EdenVR, Inc. 2017</div>
     <script src="../../build/vrview.js"></script>
     <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="javascript">
+    $("#contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".expanded-contact-form").offset().top},
+        'slow');
+    });
+    </script>
   </body>
 </html>
