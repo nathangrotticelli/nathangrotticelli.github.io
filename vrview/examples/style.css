@@ -104,6 +104,10 @@ iframe {
       .lsplayer-frame{
         display: inline;
      }
+     #contact, footer{
+      display: none;
+     }
+
 }
 
 /* DESKTOP */
