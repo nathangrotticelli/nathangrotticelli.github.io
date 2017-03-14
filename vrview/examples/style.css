@@ -104,7 +104,7 @@ iframe {
       .lsplayer-frame{
         display: inline;
      }
-     #contact, footer{
+     #contact, #footer{
       display: none;
      }
 
