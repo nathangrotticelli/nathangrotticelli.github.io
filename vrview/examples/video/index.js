@@ -30,7 +30,7 @@ function onLoad() {
     //is_vr_off: true,
   });
   // vrView.on('ready', onVRViewReady);
-
+    $('.lsplayer-frame').attr('src', 'https://embed.littlstar.com/videos/38dc3c2d');
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
 
