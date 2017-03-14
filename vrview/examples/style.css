@@ -67,12 +67,8 @@ iframe {
   /*padding: -0.25rem 0.5rem;*/
 }
 .form-control{
-
     color: black!important;
-    background-color: lightgray;
-}
-.form-control2:active {
-  color:black;
+    background-color: lightgray!important;
 }
 /*#toggleplay {
   float: left;
