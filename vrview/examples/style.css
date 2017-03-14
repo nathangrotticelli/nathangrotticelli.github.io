@@ -69,6 +69,7 @@ iframe {
 .form-control{
     color: black!important;
     background-color: lightgray!important;
+    margin-bottom: 6%;
 }
 /*#toggleplay {
   float: left;
