@@ -62,10 +62,14 @@ iframe {
     font-size: 1.5rem;
     margin: 2%;
     margin-left:2.5%;
-    border-radius: 1%;
+    border-radius: 2.5%;
+    padding:.4%;
     text-align: left;
     border:none!important;
   /*padding: -0.25rem 0.5rem;*/
+}
+#contact:hover {
+  opacity:.6;
 }
 .form-control{
     color: black!important;
