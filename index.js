@@ -76,6 +76,7 @@ $("#contact").click(function() {
 });
 if(window.innerWidth < 760){
      $('.ytplayer-frame').on('click', function( e ) {
+      alert('hi im here');
        e.preventDefault();
        //assumes that by forcing window to go to youtube will kick up option to open in app where experience works - plays my full showreel
        window.location = "https://www.youtube.com/watch?v=0x16ngo8xfY&list=PLzSXIFcDqpiCiKXMtXtVIHnmor9uUsEhC&autoplay=1";
