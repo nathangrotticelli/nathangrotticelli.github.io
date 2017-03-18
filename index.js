@@ -30,25 +30,10 @@ function onLoad() {
     //is_vr_off: true,
   });
   // vrView.on('ready', onVRViewReady);
-    $('.ytplayer-frame').attr('src', 'https://www.youtube.com/embed/5xqPUyI3pQY');
+    $('.lsplayer-frame').attr('src', 'https://embed.littlstar.com/videos/38dc3c2d');
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
-  $('.video').on('click', function() {
-    console.log('i am video');
-    window.alert('i am video');
-});
-$('.ytplayer-frame').on('click', function() {
-    console.log('i am player frame');
-    window.alert('i am lpayer frame');
-});
-     $('iframe').on('click', function( ) {
-        console.log('hi im here');
-        alert('hi im here');
 
-       // e.preventDefault();
-       //assumes that by forcing window to go to youtube will kick up option to open in app where experience works - plays my full showreel
-       // window.location = "https://www.youtube.com/watch?v=0x16ngo8xfY&list=PLzSXIFcDqpiCiKXMtXtVIHnmor9uUsEhC&autoplay=1";
-     });
   // playButton.addEventListener('click', onTogglePlay);
   // muteButton.addEventListener('click', onToggleMute);
 }
@@ -89,8 +74,6 @@ $("#contact").click(function() {
         scrollTop: $(".expanded-contact-form").offset().top},
         'slow');
 });
-
-
 $(".white-text").click(function() {
     $('html,body').animate({
         scrollTop: $(".expanded-contact-form").offset().top},
