@@ -108,6 +108,9 @@ iframe {
       .lsplayer-frame{
         display: inline;
      }
+     .ytplayer-frame{
+        display: inline;
+     }
      #contact, #footer{
       display: none;
      }
