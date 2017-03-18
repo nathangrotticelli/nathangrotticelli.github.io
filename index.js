@@ -33,15 +33,15 @@ function onLoad() {
     $('.ytplayer-frame').attr('src', 'https://www.youtube.com/embed/5xqPUyI3pQY');
   // playButton = document.querySelector('#toggleplay');
   // muteButton = document.querySelector('#togglemute');
-  $('.video').on('click', function( e ) {
+  $('.video').on('click', function() {
     console.log('i am video');
     window.alert('i am video');
 });
-$('.ytplayer-frame').on('click', function( e ) {
+$('.ytplayer-frame').on('click', function() {
     console.log('i am player frame');
     window.alert('i am lpayer frame');
 });
-     $('iframe').on('click', function( e ) {
+     $('iframe').on('click', function( ) {
         console.log('hi im here');
         alert('hi im here');
 
