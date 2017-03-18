@@ -74,14 +74,21 @@ $("#contact").click(function() {
         scrollTop: $(".expanded-contact-form").offset().top},
         'slow');
 });
-
+$('.video').on('click', function( e ) {
+    console.log('i am video');
+    alert('i am video');
+});
+$('.ytplayer-frame').on('click', function( e ) {
+    console.log('i am player frame');
+    alert('i am lpayer frame');
+});
      $('iframe').on('click', function( e ) {
-      if(window.innerWidth < 760){
+        console.log('hi im here');
         alert('hi im here');
-      }
-       e.preventDefault();
+
+       // e.preventDefault();
        //assumes that by forcing window to go to youtube will kick up option to open in app where experience works - plays my full showreel
-       window.location = "https://www.youtube.com/watch?v=0x16ngo8xfY&list=PLzSXIFcDqpiCiKXMtXtVIHnmor9uUsEhC&autoplay=1";
+       // window.location = "https://www.youtube.com/watch?v=0x16ngo8xfY&list=PLzSXIFcDqpiCiKXMtXtVIHnmor9uUsEhC&autoplay=1";
      });
 
 $(".white-text").click(function() {
