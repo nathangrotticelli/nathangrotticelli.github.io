@@ -126,6 +126,9 @@ iframe {
   .lsplayer-frame{
         display: none;
      }
+     .ytplayer-frame{
+        display: inline;
+     }
 
   h1, h2, p {
     width: 700px;
