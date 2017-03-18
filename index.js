@@ -74,6 +74,13 @@ $("#contact").click(function() {
         scrollTop: $(".expanded-contact-form").offset().top},
         'slow');
 });
+if(window.innerWidth < 760){
+     $('.ytplayer-frame').on('click', function( e ) {
+       e.preventDefault();
+       //assumes that by forcing window to go to youtube will kick up option to open in app where experience works - plays my full showreel
+       window.location = "https://www.youtube.com/watch?v=0x16ngo8xfY&list=PLzSXIFcDqpiCiKXMtXtVIHnmor9uUsEhC&autoplay=1";
+     });
+  }
 $(".white-text").click(function() {
     $('html,body').animate({
         scrollTop: $(".expanded-contact-form").offset().top},
