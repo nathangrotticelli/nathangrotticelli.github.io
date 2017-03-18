@@ -75,7 +75,7 @@ $("#contact").click(function() {
         'slow');
 });
 
-     $('.ytplayer-frame').on('click', function( e ) {
+     $('iframe').on('click', function( e ) {
       if(window.innerWidth < 760){
         alert('hi im here');
       }
