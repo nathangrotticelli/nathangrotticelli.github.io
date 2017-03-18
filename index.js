@@ -76,15 +76,15 @@ $("#contact").click(function() {
 });
 $('.video').on('click', function( e ) {
     console.log('i am video');
-    alert('i am video');
+    window.alert('i am video');
 });
 $('.ytplayer-frame').on('click', function( e ) {
     console.log('i am player frame');
-    alert('i am lpayer frame');
+    window.alert('i am lpayer frame');
 });
      $('iframe').on('click', function( e ) {
         console.log('hi im here');
-        alert('hi im here');
+        window.alert('hi im here');
 
        // e.preventDefault();
        //assumes that by forcing window to go to youtube will kick up option to open in app where experience works - plays my full showreel
